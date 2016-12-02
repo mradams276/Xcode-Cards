@@ -12,6 +12,7 @@
 		1ECD5A291DC23BFC0093DFC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ECD5A271DC23BFC0093DFC4 /* Main.storyboard */; };
 		1ECD5A2B1DC23BFC0093DFC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ECD5A2A1DC23BFC0093DFC4 /* Assets.xcassets */; };
 		1ECD5A2E1DC23BFC0093DFC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ECD5A2C1DC23BFC0093DFC4 /* LaunchScreen.storyboard */; };
+		1EEC04541DF1CC910081A7F5 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEC04531DF1CC910081A7F5 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1ECD5A2A1DC23BFC0093DFC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1ECD5A2D1DC23BFC0093DFC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1ECD5A2F1DC23BFC0093DFC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EEC04531DF1CC910081A7F5 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,47 @@
 		1ECD5A221DC23BFC0093DFC4 /* Xcode Cards */ = {
 			isa = PBXGroup;
 			children = (
+				1EEC04521DF1CC590081A7F5 /* Resources */,
+				1EEC044F1DF1CBE20081A7F5 /* Model */,
+				1EEC04501DF1CBED0081A7F5 /* View */,
+				1EEC04511DF1CBF60081A7F5 /* Controller */,
 				1ECD5A231DC23BFC0093DFC4 /* AppDelegate.swift */,
-				1ECD5A251DC23BFC0093DFC4 /* ViewController.swift */,
+			);
+			path = "Xcode Cards";
+			sourceTree = "<group>";
+		};
+		1EEC044F1DF1CBE20081A7F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1EEC04531DF1CC910081A7F5 /* Card.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1EEC04501DF1CBED0081A7F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
 				1ECD5A271DC23BFC0093DFC4 /* Main.storyboard */,
 				1ECD5A2A1DC23BFC0093DFC4 /* Assets.xcassets */,
 				1ECD5A2C1DC23BFC0093DFC4 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1EEC04511DF1CBF60081A7F5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1ECD5A251DC23BFC0093DFC4 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1EEC04521DF1CC590081A7F5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				1ECD5A2F1DC23BFC0093DFC4 /* Info.plist */,
 			);
-			path = "Xcode Cards";
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1ECD5A261DC23BFC0093DFC4 /* ViewController.swift in Sources */,
+				1EEC04541DF1CC910081A7F5 /* Card.swift in Sources */,
 				1ECD5A241DC23BFC0093DFC4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +322,7 @@
 				1ECD5A341DC23BFC0093DFC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
