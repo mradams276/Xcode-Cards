@@ -30,7 +30,7 @@ class Card
         return backImage
     }
     
-    func setBackImage(newImage : UIImage)
+    func setBackImage(_ newImage : UIImage)
     {
         backImage = newImage
     }
